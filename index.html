@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aakash - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(27, 4, 49);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            ;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(38, 38, 72);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 28px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+            /* margin: 30px; */
+        }
+
+        .rightsection {
+            width: 30%;
+        }
+
+        .rightsection img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(129, 129, 222);
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(129, 129, 222);
+            font-size: 1.04rem;
+        }
+
+        #element {
+            color: rgb(129, 129, 222);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        .secondSection .Box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 60px;
+            position: relative;
+            top: -36px;
+            right: 35px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            right: 37px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            color: gray;
+            font-size: 11px;
+            top: 65px;
+            right: 37px;
+            width: 150px;
+        }
+
+        .leftsection .buttons {
+            padding: 50px 0px;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            padding: 5px;
+        }
+
+        .center {
+            text-align: center;
+            margin: 0%;
+            padding: 0%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Aakash's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="www.google.com">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Aakash</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit LinkedIn</button>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="bg.png.png" alt="Developer Image">
+
+            </div>
+
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I Have Done So Far.</span>
+            <h1>Work Experience.</h1>
+            <div class="Box">
+                <div class="vertical">
+                    <img class="image-top" src="fis.png" alt="">
+                    <div class="vertical-title">
+                        Assistant Manager (FIS)
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>Promoted as <b>Assistant Manager</b> in under a year. My
+                            role primarily involves implementing Data-Driven Decision-Making strategies, including data
+                            collection, cleaning, and preprocessing. I perform exploratory data analysis to uncover
+                            meaningful information.
+                        </ul><br>
+                        <ul>Proficient in <b>Excel and Power BI</b> for Data Analysis and Visualization.
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pthon2.png" alt="">
+                    <div class="vertical-title">
+                        Python Progammer
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>I possess a strong proficiency in <b>Python programming</b> and have developed and
+                            maintained various software applications and Python projects, including web scraping tools
+                            and a ToDo List app.</ul><br>
+                        <ul>I excel in Python, specializing in solving data manipulation and analysis challenges. I
+                            regularly utilize Pandas, NumPy, Matplotlib, and Seaborn to extract insights and create
+                            compelling data visualizations.</ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="powerbi2.png" alt="">
+                    <div class="vertical-title">
+                        Power_BI Developer
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>I've designed numerous <b>Power BI Dashboards,</b> spotlighting Agent Performance Reports
+                            across different months to pinpoint areas for improvement and foster growth.</b>
+                        </ul><br>
+                        <ul>My proficiency includes utilizing various functionalities such as Stack Area Charts, Donut
+                            Charts, Cards, Slicers, Sorting, and Filtering, all aimed at delivering actionable insights
+                            and driving success.</ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="sql.png" alt="">
+                    <div class="vertical-title">
+                        SQL Developer
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>As a skilled <b>SQL Developer,</b> I excel in crafting efficient and optimized SQL queries,
+                            database designs, and stored procedures.</ul><br>
+                        <ul>My expertise in managing data and ensuring seamless database integration with applications
+                            has consistently delivered impactful results. With a proven track record in SQL development,
+                            I am well-equipped to enhance data-driven solutions and contribute to your team's
+                            success.</b></ul>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="webdesigner.png" alt="">
+                    <div class="vertical-title">
+                        Web Designer
+                    </div>
+                    <div class="vertical-desc">
+                        <ul>I possess a solid grasp of <b>HTML and CSS,</b> supported by self-made projects that
+                            comprehensively showcase their key concepts.</ul><br>
+                        <ul> My web design experience includes the creation and design of websites using HTML and CSS,
+                            leveraging functionalities like relative length and flexbox for dynamic and visually
+                            appealing layouts..</ul>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="center">Aakash's Developer Portfolio &copy; - Allrights Reserved
+        </p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Assistant Manager.', 'Data Analyst.', 'Python Programmer.', 'Power-BI Developer', 'SQL Developer', 'Web Designer.',],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
